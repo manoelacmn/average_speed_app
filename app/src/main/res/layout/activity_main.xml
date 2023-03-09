@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTittle"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFinalSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTvFinalSpace"
+        android:layout_below="@id/tvTittle"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etFinalSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFinalSpace"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvInitialSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTvInitialSpace"
+        android:layout_below="@id/etFinalSpace"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etInitialSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvInitialSpace"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFinalSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTvFinalSpeed"
+        android:layout_below="@id/etInitialSpace"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etFinalSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFinalSpeed"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvInitialSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTvInitialSpeed"
+        android:layout_below="@id/etFinalSpeed"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etInitialSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvInitialSpeed"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalculate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etInitialSpeed"
+        android:hint="@string/hintBtnCalculate"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

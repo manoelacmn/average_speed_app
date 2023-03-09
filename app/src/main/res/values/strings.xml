@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">average_speed</string>
+    <string name="hintTittle">Calculadora de velocidade média</string>
+    <string name="hintTvFinalSpace">Digite o espaço final:</string>
+    <string name="hintTvInitialSpace">Digite o espaço inicial:</string>
+    <string name="hintTvFinalSpeed">Digite a velocidade final:</string>
+    <string name="hintTvInitialSpeed">Digite a velocidade inicial:</string>
+    <string name="hintBtnCalculate">Calcular</string>
+</resources>
