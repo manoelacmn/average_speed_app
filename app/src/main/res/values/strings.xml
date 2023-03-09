@@ -6,4 +6,6 @@
     <string name="hintTvFinalSpeed">Digite a velocidade final:</string>
     <string name="hintTvInitialSpeed">Digite a velocidade inicial:</string>
     <string name="hintBtnCalculate">Calcular</string>
+    <string name="TimeResult">Total time: %s</string>
+
 </resources>
